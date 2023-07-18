@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <style>
+            #myDIV {
+                    width: 600px;
+                    height: 450px;
+                    background-color: rgb(149, 193, 195);
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                   }
+        </style>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <form id="form" name="myForm" method="post">
+                <div id="myDIV" class="pt-3">
+                    <h1 align="center">STRING REVERSE</h1>
+                    <div class="container mx-auto  text-center p-3 w-75 ">
+                        <div class="row mx-auto">
+                            <label for="enter your string" class="string"><b>ENTER YOUR STRING</b></label>
+                            <input type="text" id="str"/>
+                        </div>
+                        <div class="p-3 mt-3">
+                            <input type="submit" class="onSubmit" id="reversed" value ="submit">
+                            <input type="reset" class="button" name="reset" id="reset"> 
+                        </div>
+                        <div class="bg-info">
+                            <p id="display"></p>
+                            <p id="display2"></p>
+                        </div>
+                    </div>
+                </div>   
+            </form> 
+        </div>
+    </body>
+    <script>
+        $("form").on('submit',function(){
+            var str= $('#str').val().split('');
+            const reversed = str.reverse().join('');
+            if(str==""){
+                alert("Please Enter your string");
+                return false;
+            }
+            else {
+                $("#display").text("Given string: " +  $('#str').val());
+                $("#display2").text("Reversed string: " +  reversed);    
+                return false; 
+            }
+        });
+
+        // $('#reset').on('click', function() {
+        //     $("#display").css('display', 'none');
+        //     $("#display2").css('display', 'none');
+        // });
+    </script>
+</HTML> 
