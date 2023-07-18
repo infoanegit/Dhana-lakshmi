@@ -26,110 +26,107 @@
         <div class="container sborder form-group"> 
           <div class="container">
                 <h1 align="center"> <b>CREATE ACCOUNT</b> </h1>
-
-            <form >
-                <div class="row mt-5">
-                    <div class="form-group col-sm-6">
-                        <label for="fname" class="label">First name*</label>
-                        <input type="text" class="form-control" id="fname" placeholder="enter your first name" required>
-                     </div>
-
-                     <div class="form-group col-sm-6">
-                        <label for="fname" class="label">Last name</label>
-                        <input type="text" class="form-control" id="lname" placeholder="enter your last name">
-                     </div> 
-                    </div> 
-                <div class="row mt-3">
-                 <div class="form-group col-sm-12">
-                    <label for="fname" class="label">Email*</label>
-                    <input type="email" class="form-control" id="email" placeholder="enter your email" required>
-                 </div></div>
-                 <div class="row mt-3">
-                    <div class="form-group col-sm-6">
-                        <label for="fname" class="label">Password*</label>
-                        <input type="text" class="form-control" id="pwd" placeholder="enter your password" required>
-                     </div>
-
-                     <div class="form-group col-sm-6">
-                        <label for="fname" class="label">Confirm Password*</label>
-                        <input type="text" class="form-control" id="cpwd" placeholder="enter your password again" required>
-                     </div> 
-                    </div>
-                <div class="row mt-3">
-                    <div class="form-group col-sm-6">
-                    <label for="fname" class="label">Gender:</label>
-                    <div class="row">
-                        <div class="form-check col-sm-2">
-                            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
-                            <label class="form-check-label" for="radio1">Male</label>
-                        </div>
-                        <div class="form-check col-sm-2">
-                            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
-                             <label class="form-check-label" for="radio1">Female</label> 
-                        </div>
-                    </div>
-                </div>
-                  <div class="form-group col-sm-6">
-                    <label for="fname" class="label">Hobbies:</label>
-                    <div class="row">
-                        <div class="form-check col-sm-2">
-                    <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
-                    <label class="form-check-label" for="check1">Music</label>
-                        </div>
-                        <div class="form-check col-sm-2">
-                    <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
-                    <label class="form-check-label" for="check2">Sports</label>
-                        </div>
-                        <div class="form-check col-sm-2">
-                    <input type="checkbox" class="form-check-input" id="check3" name="option3" value="something">
-                    <label class="form-check-label" for="check3">Travel</label>
-                        </div>
-                        <div class="form-check col-sm-2">
-                    <input type="checkbox" class="form-check-input" id="check4" name="option4" value="something">
-                    <label class="form-check-label" for="check4">Movies</label>
-                        </div>
-                  </div></div>
-                  </div>  
-                <div class="row mt-3">
-                    <div class="form-group col-sm-6">
-                        <label for="source of income" class="label">Source of income</label>
-                        <select class="form-select" id="sel1" name="selectlist">
-                            <option>Employed</option>
-                            <option>Unemployed</option>
-                        </select>
-                    </div>
-                    <div class="form-group col-sm-6">
-                        <label for="DefaultRange" class="label">Income</label>
-                        <!--input type="range" id="DefaultRange" min="1" max="100" value="75" name="range" 
-                        style="width:100%;"-->
-                        <div class="form-group col-sm-6"> 
-                        <input type="range" min="1" max="100" value="75"style="width:200px">
-                        <input type="button" class="button" value="20K">
-                        </div>
-                    </div>
-                </div>
-                </div>
-                <div class="row mt-3 ">
-                    <div class="form-group col-sm-6">
-                        <label for="fname" class="label">Upload Profile Picture </label>
-                        <input type="file" class="form-control" id="Picture">
-                        </div>
-
+                <form >
+                    <div class="row mt-5">
                         <div class="form-group col-sm-6">
-                        <label for="fname" class="label">Age</label>
-                        <input type="int" class="form-control" id="age" value="18">
+                            <label for="fname" class="label">First name*</label>
+                            <input type="text" class="form-control" id="fname" placeholder="enter your first name" required>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="fname" class="label">Last name</label>
+                            <input type="text" class="form-control" id="lname" placeholder="enter your last name">
                         </div> 
-                </div> 
-                <div class="mb-3 mt-3">
-                    <label for="comment" class="label">Bio</label>
-                    <textarea class="form-control" rows="4" id="comment" name="text"></textarea>
-                </div> 
-                <div align="right">
-                    <!--button type="submit" value="create" class="sbutton">Create</button-->
-                    <input type="submit" class="btn btn-success" value ="create">
-                </div>
-            </form>
-           </div>
+                    </div> 
+                    <div class="row mt-3">
+                        <div class="form-group col-sm-12">
+                            <label for="fname" class="label">Email*</label>
+                            <input type="email" class="form-control" id="email" placeholder="enter your email" required>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="form-group col-sm-6">
+                            <label for="fname" class="label">Password*</label>
+                            <input type="text" class="form-control" id="pwd" placeholder="enter your password" required>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="fname" class="label">Confirm Password*</label>
+                            <input type="text" class="form-control" id="cpwd" placeholder="enter your password again" required>
+                        </div> 
+                    </div>
+                    <div class="row mt-3">
+                        <div class="form-group col-sm-6">
+                            <label for="fname" class="label">Gender:</label>
+                            <div class="row">
+                                <div class="form-check col-sm-2">
+                                    <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                                    <label class="form-check-label" for="radio1">Male</label>
+                                </div>
+                                <div class="form-check col-sm-2">
+                                    <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                                    <label class="form-check-label" for="radio1">Female</label> 
+                                </div>
+                            </div>
+                        </div>
+                    <div class="form-group col-sm-6">
+                            <label for="fname" class="label">Hobbies:</label>
+                                <div class="row">
+                                    <div class="form-check col-sm-2">
+                                        <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+                                        <label class="form-check-label" for="check1">Music</label>
+                                    </div>
+                                    <div class="form-check col-sm-2">
+                                        <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+                                        <label class="form-check-label" for="check2">Sports</label>
+                                    </div>
+                                    <div class="form-check col-sm-2">
+                                        <input type="checkbox" class="form-check-input" id="check3" name="option3" value="something">
+                                        <label class="form-check-label" for="check3">Travel</label>
+                                    </div>
+                                    <div class="form-check col-sm-2">
+                                        <input type="checkbox" class="form-check-input" id="check4" name="option4" value="something">
+                                        <label class="form-check-label" for="check4">Movies</label>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>  
+                    <div class="row mt-3">
+                        <div class="form-group col-sm-6">
+                            <label for="source of income" class="label">Source of income</label>
+                            <select class="form-select" id="sel1" name="selectlist">
+                                <option>Employed</option>
+                                <option>Unemployed</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="DefaultRange" class="label">Income</label>
+                            <!--input type="range" id="DefaultRange" min="1" max="100" value="75" name="range" 
+                            style="width:100%;"-->
+                            <div class="form-group col-sm-6"> 
+                                <input type="range" min="1" max="100" value="75"style="width:200px">
+                                <input type="button" class="button" value="20K">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 ">
+                        <div class="form-group col-sm-6">
+                            <label for="fname" class="label">Upload Profile Picture </label>
+                            <input type="file" class="form-control" id="Picture">
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="fname" class="label">Age</label>
+                            <input type="int" class="form-control" id="age" value="18">
+                        </div> 
+                    </div> 
+                    <div class="mb-3 mt-3">
+                        <label for="comment" class="label">Bio</label>
+                        <textarea class="form-control" rows="4" id="comment" name="text"></textarea>
+                    </div> 
+                    <div align="right">
+                        <!--button type="submit" value="create" class="sbutton">Create</button-->
+                        <input type="submit" class="btn btn-success" value ="create">
+                    </div>
+                </form>
+            </div>
         </div>
     </body>
 </html>
