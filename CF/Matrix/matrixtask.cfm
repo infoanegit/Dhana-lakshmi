@@ -4,7 +4,6 @@
     </cfloop>
     </cfloop>
 
-
 <cfscript>
     for(i=1; i<=3; i++){
         for(i=j; j<=9; j=j+3){
