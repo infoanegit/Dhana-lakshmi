@@ -37,7 +37,6 @@
         </body>
     </html>
     <cfif structKeyExists(form,"submit")>
-        <!--- <cfif form.CHECKODDEVEN NEQ "" > --->
             <center>
                 <div class="text-center w-50 bg-secondary text-white">
                     <p>ODD numbers are in Blue and EVEN numbers are in Green</p>
@@ -54,7 +53,6 @@
                        </div>        
                 </cfif>
             </cfloop>
-        <!--- </cfif> --->
     </cfif>
 </Cfoutput>
   
