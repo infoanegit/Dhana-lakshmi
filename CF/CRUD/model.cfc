@@ -52,5 +52,4 @@
                delete from student where id =<cfqueryparam value="#arguments.id#" cfsqltype="cf_sql_integer" >
         </cfquery>
     </cffunction>
-
 </cfcomponent>

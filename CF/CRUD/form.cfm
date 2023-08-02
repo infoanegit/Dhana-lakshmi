@@ -1,5 +1,4 @@
 <cfoutput>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -106,5 +105,4 @@
         </div>
     </body>
 </html>
-
 </cfoutput>
