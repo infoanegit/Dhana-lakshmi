@@ -27,6 +27,8 @@
         <cfparam name="studentinfo.Lastname" default=""/>
         <cfparam name="studentinfo.Email" default=""/>
         <cfparam name="studentinfo.Age" default=""/>
+        <cfparam name="studentinfo.Gender" default=""/>
+        
         
         <cfset data = createobject("component","model")>
         <cfif structKeyExists(url,"id")>
