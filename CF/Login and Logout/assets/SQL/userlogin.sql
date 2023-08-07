@@ -4,6 +4,7 @@ create table userlogin (
 	Password varchar(50) NOT NULL
 );
 
+use trainingdb
 select * from userlogin;
 
 drop table userlogin;
